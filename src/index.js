@@ -1,3 +1,5 @@
-console.log("Hello World!!!");
+import Elm from "./Main.elm";
 
-console.log("Another line!");
+const app = Elm.Main.init({
+  node: document.getElementById("app"),
+});
